@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Script1 : MonoBehaviour
 {
-        public int[] randomArray = new int[25];
+    public int[] randomArray = new int[25];
 
     // Start is called before the first frame update
     void Start()
     {
-          for (int i = 0; i < 25; i++) {
+        for (int i = 0; i < 25; i++) {
             randomArray[i] = UnityEngine.Random.Range(0, 25);
         } 
     }
